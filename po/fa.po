@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2024-09-25 23:27+0000\n"
 "Last-Translator: Hossein <hossein17@duck.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/music/music/fa/"
@@ -47,16 +47,11 @@ msgstr "باز کردن فایل صوتی"
 msgid "Couldn't add audio files"
 msgstr "نمی‌توان پرونده رسانه را پیدا کرد"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d آهنگ به صف اضافه شد"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "ناشناخته"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -131,6 +126,9 @@ msgstr "بازپخش آهنگ"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "جستجوی عناوین در پلی لیست"
+
+#~ msgid "Unknown"
+#~ msgstr "ناشناخته"
 
 #~ msgid "$NAME on $ALBUM"
 #~ msgstr "$NAME  از آلبوم $ALBUM"

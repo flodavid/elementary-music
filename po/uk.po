@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2025-12-18 23:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/music/music/"
@@ -46,18 +46,13 @@ msgstr "Відкрити аудіофайли"
 msgid "Couldn't add audio files"
 msgstr "Не вдалося додати звуковий файл"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d доріжку додано до черги"
 msgstr[1] "%d доріжки додано до черги"
 msgstr[2] "%d доріжок додано до черги"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Невідомо"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -131,6 +126,9 @@ msgstr "Повторювати одну"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "Пошук назв у списку відтворення"
+
+#~ msgid "Unknown"
+#~ msgstr "Невідомо"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "Завантаження <b>$NAME</b> виконавця <b>$ARTIST</b> до бібліотеки…"

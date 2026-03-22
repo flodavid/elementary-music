@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2019-02-12 00:06+0000\n"
 "Last-Translator: Rico Tzschichholz <ricotz@ubuntu.com>\n"
 "Language-Team: Greek <https://weblate.elementary.io/projects/music/music/el/"
@@ -51,17 +51,12 @@ msgstr ""
 msgid "Couldn't add audio files"
 msgstr "Αδυναμία εύρεσης του αρχείου αναπαραγωγής"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] ""
 msgstr[1] ""
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Άγνωστο"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 #, fuzzy
@@ -144,6 +139,9 @@ msgstr "Επανάληψη τραγουδιού"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστο"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr ""

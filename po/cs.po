@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2024-09-19 07:21+0000\n"
 "Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/music/music/cs/>\n"
@@ -46,18 +46,13 @@ msgstr "Otevřít zvukové soubory"
 msgid "Couldn't add audio files"
 msgstr "Soubor s médii nenalezen"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d skladba byla přidána do řady"
 msgstr[1] "%d skladby byly přidány do fronty"
 msgstr[2] "%d skladeb bylo přidáno do fronty"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Neznámý"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -136,6 +131,9 @@ msgstr "Opakovat jednu"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "Hledat názvy v seznamu skladeb"
+
+#~ msgid "Unknown"
+#~ msgstr "Neznámý"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "Importuji <b>$NAME</b> od <b>$ARTIST</b> do knihovny…"

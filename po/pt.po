@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2025-05-03 18:55+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementaryos.org/projects/music/"
@@ -47,17 +47,12 @@ msgstr "Abrir ficheiros de áudio"
 msgid "Couldn't add audio files"
 msgstr "Não foi possível encontrar o ficheiro"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d faixa foi adicionada à fila"
 msgstr[1] "%d faixas foram adicionadas à fila"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Desconhecido"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -133,6 +128,9 @@ msgstr "Repetir uma"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "Pesquisar títulos na lista de reprodução"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconhecido"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "A importar <b>$NAME</b> de <b>$ARTIST</b> para a coleção…"

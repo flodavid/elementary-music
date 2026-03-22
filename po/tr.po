@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2024-09-21 03:16+0000\n"
 "Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/music/music/tr/"
@@ -47,17 +47,12 @@ msgstr "Ses dosyalarını aç"
 msgid "Couldn't add audio files"
 msgstr "Medya dosyası bulunamadı"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d parça sıraya eklendi"
 msgstr[1] "%d parça sıraya eklendi"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Bilinmiyor"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -135,6 +130,9 @@ msgstr "Birini Tekrarla"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "Çalma listesinde başlıkları ara"
+
+#~ msgid "Unknown"
+#~ msgstr "Bilinmiyor"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "<b>$ARTIST</b> - <b>$NAME</b> kitaplığa aktarılıyor…"

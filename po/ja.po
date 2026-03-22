@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2025-09-02 12:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/music/music/"
@@ -45,16 +45,11 @@ msgstr "音声ファイルを開く"
 msgid "Couldn't add audio files"
 msgstr "音声ファイルを追加できませんでした"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d 曲をキューに追加しました"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "不明"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -126,6 +121,9 @@ msgstr "一曲リピート"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "プレイリスト内のタイトルを検索"
+
+#~ msgid "Unknown"
+#~ msgstr "不明"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "<b>$NAME</b> - <b>$ARTIST</b> をライブラリにインポートしています…"

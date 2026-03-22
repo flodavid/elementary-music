@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2019-07-21 10:24+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/music/music/eo/"
@@ -51,17 +51,12 @@ msgstr ""
 msgid "Couldn't add audio files"
 msgstr "Neeblis ŝargi ĉi aŭdan lumdiskon."
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] ""
 msgstr[1] ""
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Nekonata"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 #, fuzzy
@@ -145,6 +140,9 @@ msgstr "Ripeti kanton"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "Nekonata"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "Importanta <b>$NAME</b> de <b>$ARTIST</b> en la diskoteko…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2025-08-13 16:43+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -45,16 +45,11 @@ msgstr "打开音频文件"
 msgid "Couldn't add audio files"
 msgstr "无法添加音频文件"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] "%d 首歌曲已添加至队列"
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "未知"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 msgid "Not playing"
@@ -129,6 +124,9 @@ msgstr "重复单曲"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr "在播放列表中搜索标题"
+
+#~ msgid "Unknown"
+#~ msgstr "未知"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "正在导入 <b>$NAME</b> (艺人 <b>$ARTIST</b>) …"

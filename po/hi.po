@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: beat-box\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2018-05-25 00:08+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Hindi <https://weblate.elementary.io/projects/music/music/hi/"
@@ -47,17 +47,12 @@ msgstr ""
 msgid "Couldn't add audio files"
 msgstr ""
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] ""
 msgstr[1] ""
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "अज्ञात"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 #, fuzzy
@@ -132,6 +127,9 @@ msgstr ""
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "अज्ञात"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr "<b>$ARTIST</b> से <b>$NAME</b> का आयात"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: noise\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-05 18:04+0000\n"
+"POT-Creation-Date: 2026-03-22 16:59+0000\n"
 "PO-Revision-Date: 2015-12-21 13:44+0000\n"
 "Last-Translator: Daniel Fore <Unknown>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
@@ -50,17 +50,12 @@ msgstr ""
 msgid "Couldn't add audio files"
 msgstr "Impossible de trouver de la musique"
 
-#: src/PlaybackManager.vala:147
+#: src/PlaybackManager.vala:126
 #, c-format
 msgid "%d track was added to the queue"
 msgid_plural "%d tracks were added to the queue"
 msgstr[0] ""
 msgstr[1] ""
-
-#. Don't set artist for files without tags
-#: src/PlaybackManager.vala:230
-msgid "Unknown"
-msgstr "Inconnu"
 
 #: src/Views/NowPlayingView.vala:23 src/Views/NowPlayingView.vala:117
 #, fuzzy
@@ -142,6 +137,9 @@ msgstr "Répéter la pièce"
 #: src/Widgets/SearchBar.vala:36
 msgid "Search titles in playlist"
 msgstr ""
+
+#~ msgid "Unknown"
+#~ msgstr "Inconnu"
 
 #~ msgid "Importing <b>$NAME</b> by <b>$ARTIST</b> to library…"
 #~ msgstr ""
